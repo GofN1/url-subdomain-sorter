@@ -7,8 +7,8 @@ if [ ! -f "$input_file" ]; then
   exit 1
 fi
 
-# Ask for the main domain (e.g., diriyah.sa)
-read -rp "Enter the main domain (e.g., diriyah.sa): " main_domain
+# Ask for the main domain (e.g., example.com)
+read -rp "Enter the main domain (e.g., example.com): " main_domain
 
 # Directory to store results
 results_dir="results"
